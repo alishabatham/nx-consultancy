@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NX Consultancy — Research. Strategy. Execution. Growth.</title>
+  <meta name="description" content="NX Consultancy is a research-driven consulting and execution partner for startups, entrepreneurs, and businesses. We turn ideas into sustainable growth.">
+  <meta name="keywords" content="business consulting, startup consulting, research strategy, execution management, technology consulting, marketing strategy, NX Consultancy">
+  
+  <!-- Google Fonts: Playfair Display for Serifs & Plus Jakarta Sans for Sans-Serif Body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./images/untitled_design_logo.png">
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo">
+        <img src="./images/untitled_design_logo.png" alt="NX Consultancy Logo" class="brand-logo-img">
+        <div class="logo-text-wrap">
+          <span class="brand-title">NX CONSULTANCY</span>
+          <span class="brand-tagline">IDEAS TO IMPACT</span>
+        </div>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="nav-item active">Home</a></li>
+        <li><a href="#about" class="nav-item">About Us</a></li>
+        <li><a href="#services" class="nav-item">Services</a></li>
+        <li><a href="#approach" class="nav-item">Our Approach</a></li>
+        <li><a href="#how-we-work" class="nav-item">How We Work</a></li>
+        <li><a href="#ecosystem" class="nav-item">Ecosystem</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="btn btn-dark open-modal-btn" data-modal="consultationModal">
+          <span>Let's Talk</span>
+          <i data-lucide="arrow-right"></i>
+        </button>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 1. HERO SECTION -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-container">
+      <div class="hero-left">
+        <div class="meta-tagline">STRATEGY &nbsp;|&nbsp; PEOPLE &nbsp;|&nbsp; EXECUTION &nbsp;|&nbsp; GROWTH</div>
+        
+        <h1 class="hero-heading">
+          Turning Ideas into <br>
+          <em class="serif-italic">Real Impact.</em>
+        </h1>
+
+        <p class="hero-subtext">
+          <strong>NX Consultancy</strong> is a research-driven consulting and execution partner for startups, entrepreneurs, and businesses. We help you understand challenges, discover opportunities, build practical strategies, connect the right resources, and support execution — so your ideas turn into sustainable growth.
+        </p>
+
+        <div class="hero-cta-row">
+          <button class="btn btn-dark open-modal-btn" data-modal="consultationModal">
+            <span>Get Started</span>
+            <i data-lucide="arrow-right"></i>
+          </button>
+          <a href="#services" class="btn btn-outline-light">
+            <span>Explore Our Services</span>
+          </a>
+        </div>
+
+        <div class="hero-stats-row">
+          <div class="stat-item">
+            <span class="stat-number">50+</span>
+            <span class="stat-label">Projects Supported</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">25+</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">3+</span>
+            <span class="stat-label">Industries Served</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-image-card">
+          <img src="./images/hero_workspace.jpg" alt="NX Consultancy Executive Desk Workspace" class="hero-real-img">
+          <div class="hero-img-badge">
+            <h2>Better Businesses<br>Brighter Futures</h2>
+            <div class="accent-line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. WHO WE ARE SECTION -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-col">
+          <div class="notebook-card">
+            <img src="./images/strategy_notebook.jpg" alt="NX Consultancy Strategy Notebook" class="about-real-img">
+            <div class="nb-floating-badge">
+              <span class="nb-title">NX CONSULTANCY</span>
+              <span class="nb-sub">IDEAS TO IMPACT</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content-col">
+          <div class="sub-header-label">WHO WE ARE</div>
+          <h2 class="serif-title">Your Strategic Partner from <br><em class="serif-italic">Idea to Growth</em></h2>
+          <p class="lead-paragraph">
+            NX Consultancy works closely with startups and businesses to understand where they are, where they want to go, and what it will take to get there.
+          </p>
+          
+          <div class="callout-box">
+            <div class="cb-icon"><i data-lucide="shield-check"></i></div>
+            <p><strong>We don't stop at recommendations.</strong> Our role can extend from research and strategy to resource coordination, team management, execution support, and continuous improvement.</p>
+          </div>
+
+          <p class="body-paragraph">
+            Whether you are starting a new venture, launching a product, improving your business, or looking to scale, we help you identify the right direction and turn that direction into action.
+          </p>
+
+          <a href="#how-we-work" class="btn btn-outline-light">
+            <span>Learn More About Our Approach</span>
+            <i data-lucide="arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. WHAT NX CONSULTANCY DOES (4 Core Stages) -->
+  <section class="section stages-section" id="stages">
+    <div class="container">
+      <div class="section-title-wrapper text-center">
+        <div class="sub-header-label">WHAT WE DO</div>
+        <h2 class="serif-title">From Understanding the Problem to <br><em class="serif-italic">Making Things Happen</em></h2>
+        <p class="section-desc">Our work is structured around four core stages to guarantee seamless progression from insight to outcome.</p>
+      </div>
+
+      <div class="stages-pills-bar">
+        <span class="pill-step">Understand</span>
+        <i data-lucide="chevron-right"></i>
+        <span class="pill-step active">Research</span>
+        <i data-lucide="chevron-right"></i>
+        <span class="pill-step active">Strategize</span>
+        <i data-lucide="chevron-right"></i>
+        <span class="pill-step active">Execute</span>
+        <i data-lucide="chevron-right"></i>
+        <span class="pill-step active">Optimize</span>
+      </div>
+
+      <div class="stages-grid-4">
+        <!-- Stage 1 -->
+        <div class="stage-box">
+          <div class="stage-num">01</div>
+          <div class="stage-icon-wrap"><i data-lucide="search"></i></div>
+          <h3>1. Research</h3>
+          <p>We study the business, market, customers, competitors, industry, and existing challenges to uncover actionable insights.</p>
+          <ul class="stage-check-list">
+            <li><i data-lucide="check"></i> Market & Competitor Analysis</li>
+            <li><i data-lucide="check"></i> Customer Behavior Studies</li>
+            <li><i data-lucide="check"></i> Feasibility Assessments</li>
+          </ul>
+        </div>
+
+        <!-- Stage 2 -->
+        <div class="stage-box">
+          <div class="stage-num">02</div>
+          <div class="stage-icon-wrap"><i data-lucide="compass"></i></div>
+          <h3>2. Strategy</h3>
+          <p>Based on our findings, we develop practical business, marketing, growth, and execution strategies.</p>
+          <ul class="stage-check-list">
+            <li><i data-lucide="check"></i> Business Model Design</li>
+            <li><i data-lucide="check"></i> Go-To-Market Roadmap</li>
+            <li><i data-lucide="check"></i> Revenue Planning</li>
+          </ul>
+        </div>
+
+        <!-- Stage 3 -->
+        <div class="stage-box">
+          <div class="stage-num">03</div>
+          <div class="stage-icon-wrap"><i data-lucide="cog"></i></div>
+          <h3>3. Execution</h3>
+          <p>We coordinate the required people, teams, technology, marketing activities, and other resources to implement the plan.</p>
+          <ul class="stage-check-list">
+            <li><i data-lucide="check"></i> Team Coordination</li>
+            <li><i data-lucide="check"></i> Tech Delivery (NX Technologies)</li>
+            <li><i data-lucide="check"></i> Marketing Campaigns</li>
+          </ul>
+        </div>
+
+        <!-- Stage 4 -->
+        <div class="stage-box">
+          <div class="stage-num">04</div>
+          <div class="stage-icon-wrap"><i data-lucide="trending-up"></i></div>
+          <h3>4. Growth</h3>
+          <p>We monitor progress, collect feedback, analyze results, and help continuously improve the approach.</p>
+          <ul class="stage-check-list">
+            <li><i data-lucide="check"></i> KPI Performance Reviews</li>
+            <li><i data-lucide="check"></i> Operational Fine-Tuning</li>
+            <li><i data-lucide="check"></i> Scale & Continuous Tuning</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. OUR SERVICES (6 Services Grid) -->
+  <section class="section services-section" id="services">
+    <div class="container">
+      <div class="services-header-row">
+        <div class="sh-left">
+          <div class="sub-header-label">OUR SERVICES</div>
+          <h2 class="serif-title">Solutions for Every Stage <br>of Your Business Journey.</h2>
+        </div>
+        <div class="sh-right">
+          <p>From idea validation to execution support, we offer end-to-end consulting solutions tailored to your goals. Our services are designed to help you solve real problems, build opportunities, and achieve sustainable growth.</p>
+          <a href="#contact" class="btn-text-link">View All Services <i data-lucide="arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="services-six-grid">
+        <!-- Service 1: Startup Consulting -->
+        <div class="service-clean-card">
+          <div class="card-icon"><i data-lucide="rocket"></i></div>
+          <h3>Startup Consulting</h3>
+          <p>Validate, plan, and launch your ideas with the right strategy.</p>
+          <ul class="clean-list">
+            <li><i data-lucide="check"></i> Idea Validation & Business Model</li>
+            <li><i data-lucide="check"></i> Launch Planning & Go-To-Market</li>
+          </ul>
+          <button class="learn-more-link open-service-detail" data-service="startup">
+            <span>Learn More</span> <i data-lucide="arrow-right"></i>
+          </button>
+        </div>
+
+        <!-- Service 2: Business Consulting -->
+        <div class="service-clean-card">
+          <div class="card-icon"><i data-lucide="trending-up"></i></div>
+          <h3>Business Consulting</h3>
+          <p>Solve challenges, improve performance and unlock growth.</p>
+          <ul class="clean-list">
+            <li><i data-lucide="check"></i> Business Analysis & Process Improvement</li>
+            <li><i data-lucide="check"></i> Revenue & Expansion Planning</li>
+          </ul>
+          <button class="learn-more-link open-service-detail" data-service="business">
+            <span>Learn More</span> <i data-lucide="arrow-right"></i>
+          </button>
+        </div>
+
+        <!-- Service 3: Research & Analysis -->
+        <div class="service-clean-card">
+          <div class="card-icon"><i data-lucide="search"></i></div>
+          <h3>Research & Analysis</h3>
+          <p>Actionable insights for better and faster business decisions.</p>
+          <ul class="clean-list">
+            <li><i data-lucide="check"></i> Market & Competitor Research</li>
+            <li><i data-lucide="check"></i> Customer Feedback & Surveys</li>
+          </ul>
+          <button class="learn-more-link open-service-detail" data-service="research">
+            <span>Learn More</span> <i data-lucide="arrow-right"></i>
+          </button>
+        </div>
+
+        <!-- Service 4: Marketing Consulting -->
+        <div class="service-clean-card">
+          <div class="card-icon"><i data-lucide="megaphone"></i></div>
+          <h3>Marketing Consulting</h3>
+          <p>Strategic marketing for the right audience, at the right time.</p>
+          <ul class="clean-list">
+            <li><i data-lucide="check"></i> Strategy & Brand Positioning</li>
+            <li><i data-lucide="check"></i> Team Assignment & Execution</li>
+          </ul>
+          <button class="learn-more-link open-service-detail" data-service="marketing">
+            <span>Learn More</span> <i data-lucide="arrow-right"></i>
+          </button>
+        </div>
+
+        <!-- Service 5: Technology Consulting -->
+        <div class="service-clean-card">
+          <div class="card-icon"><i data-lucide="laptop"></i></div>
+          <h3>Technology Consulting</h3>
+          <p>Bridge business needs with the right technology solutions.</p>
+          <ul class="clean-list">
+            <li><i data-lucide="check"></i> Digital Solution Planning</li>
+            <li><i data-lucide="check"></i> Coordinated with NX Technologies</li>
+          </ul>
+          <button class="learn-more-link open-service-detail" data-service="tech">
+            <span>Learn More</span> <i data-lucide="arrow-right"></i>
+          </button>
+        </div>
+
+        <!-- Service 6: Execution Management -->
+        <div class="service-clean-card">
+          <div class="card-icon"><i data-lucide="settings"></i></div>
+          <h3>Execution Management</h3>
+          <p>Turn strategy into reality with end-to-end execution support.</p>
+          <ul class="clean-list">
+            <li><i data-lucide="check"></i> Project & Team Coordination</li>
+            <li><i data-lucide="check"></i> Task & Performance Tracking</li>
+          </ul>
+          <button class="learn-more-link open-service-detail" data-service="execution">
+            <span>Learn More</span> <i data-lucide="arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. OUR UNIQUE APPROACH -->
+  <section class="section approach-section" id="approach">
+    <div class="container">
+      <div class="approach-grid-container">
+        <div class="approach-left-img">
+          <div class="notebook-photo-box">
+            <img src="./images/execution_meeting.jpg" alt="NX Consultancy Team Strategy Execution" class="approach-real-img">
+          </div>
+        </div>
+
+        <div class="approach-right-content">
+          <div class="sub-header-label">OUR APPROACH</div>
+          <h2 class="serif-title">More Than Advice.<br><em class="serif-italic">A Partner in Execution.</em></h2>
+          
+          <div class="approach-steps-horizontal">
+            <div class="app-step-item">
+              <div class="app-icon-circle"><i data-lucide="file-text"></i></div>
+              <h4>Understand</h4>
+              <p>Your business, goals and challenges.</p>
+            </div>
+            <div class="app-arrow"><i data-lucide="arrow-right"></i></div>
+
+            <div class="app-step-item">
+              <div class="app-icon-circle"><i data-lucide="file-search"></i></div>
+              <h4>Research</h4>
+              <p>Market, customers and opportunities.</p>
+            </div>
+            <div class="app-arrow"><i data-lucide="arrow-right"></i></div>
+
+            <div class="app-step-item">
+              <div class="app-icon-circle"><i data-lucide="users"></i></div>
+              <h4>Strategize</h4>
+              <p>Practical and actionable plans.</p>
+            </div>
+            <div class="app-arrow"><i data-lucide="arrow-right"></i></div>
+
+            <div class="app-step-item">
+              <div class="app-icon-circle"><i data-lucide="pen-tool"></i></div>
+              <h4>Execute</h4>
+              <p>Coordinate teams and resources.</p>
+            </div>
+            <div class="app-arrow"><i data-lucide="arrow-right"></i></div>
+
+            <div class="app-step-item">
+              <div class="app-icon-circle"><i data-lucide="settings"></i></div>
+              <h4>Optimize</h4>
+              <p>Track progress and improve continuously.</p>
+            </div>
+          </div>
+
+          <div class="approach-cta-box">
+            <a href="#how-we-work" class="btn btn-outline-light">
+              <span>Our Approach</span>
+              <i data-lucide="arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. HOW WE WORK (Timeline) -->
+  <section class="section timeline-section" id="how-we-work">
+    <div class="container">
+      <div class="section-title-wrapper text-center">
+        <div class="sub-header-label">WORKFLOW TIMELINE</div>
+        <h2 class="serif-title">How We Work <em class="serif-italic">Step by Step</em></h2>
+        <p class="section-desc">A structured 6-phase journey ensuring complete accountability from strategy to delivery.</p>
+      </div>
+
+      <div class="clean-timeline-grid">
+        <div class="timeline-box">
+          <span class="tb-num">01</span>
+          <h4>Discovery</h4>
+          <p>Understand the business context, requirements, and long-term targets.</p>
+        </div>
+        <div class="timeline-box">
+          <span class="tb-num">02</span>
+          <h4>Research</h4>
+          <p>Study the market, customer behaviors, and key competitors.</p>
+        </div>
+        <div class="timeline-box">
+          <span class="tb-num">03</span>
+          <h4>Strategy</h4>
+          <p>Develop a clear, practical, and milestone-based roadmap.</p>
+        </div>
+        <div class="timeline-box">
+          <span class="tb-num">04</span>
+          <h4>Resource Planning</h4>
+          <p>Identify and assemble the right teams, tools, and technical resources.</p>
+        </div>
+        <div class="timeline-box">
+          <span class="tb-num">05</span>
+          <h4>Execution</h4>
+          <p>Coordinate implementation, manage deliverables, and clear bottlenecks.</p>
+        </div>
+        <div class="timeline-box">
+          <span class="tb-num">06</span>
+          <h4>Monitoring</h4>
+          <p>Track results against initial KPIs, collect feedback, and optimize continuously.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. WHAT WE CAN HELP YOU BUILD -->
+  <section class="section build-section" id="what-we-build">
+    <div class="container">
+      <div class="section-title-wrapper text-center">
+        <div class="sub-header-label">PRACTICAL OUTPUTS</div>
+        <h2 class="serif-title">What We Can Help You <em class="serif-italic">Build & Deliver</em></h2>
+        <p class="section-desc">We turn ideas into practical operational assets across four key pillars.</p>
+      </div>
+
+      <div class="build-4-grid">
+        <div class="build-pillar-card">
+          <div class="bp-icon"><i data-lucide="building-2"></i></div>
+          <h3>Business</h3>
+          <ul>
+            <li><i data-lucide="check"></i> Business Models</li>
+            <li><i data-lucide="check"></i> Growth Plans</li>
+            <li><i data-lucide="check"></i> Market Entry & Expansion</li>
+          </ul>
+        </div>
+
+        <div class="build-pillar-card">
+          <div class="bp-icon"><i data-lucide="pie-chart"></i></div>
+          <h3>Marketing</h3>
+          <ul>
+            <li><i data-lucide="check"></i> Marketing Strategy</li>
+            <li><i data-lucide="check"></i> Brand Building & Campaigns</li>
+            <li><i data-lucide="check"></i> Customer Acquisition</li>
+          </ul>
+        </div>
+
+        <div class="build-pillar-card">
+          <div class="bp-icon"><i data-lucide="code-2"></i></div>
+          <h3>Technology</h3>
+          <ul>
+            <li><i data-lucide="check"></i> Websites & Applications</li>
+            <li><i data-lucide="check"></i> Digital Solutions</li>
+            <li><i data-lucide="check"></i> Coordinated with NX Technologies</li>
+          </ul>
+        </div>
+
+        <div class="build-pillar-card">
+          <div class="bp-icon"><i data-lucide="layers"></i></div>
+          <h3>Execution</h3>
+          <ul>
+            <li><i data-lucide="check"></i> Team Building</li>
+            <li><i data-lucide="check"></i> Project Coordination</li>
+            <li><i data-lucide="check"></i> Customer Surveys & Feedback</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. WHO WE WORK WITH (SOLID DARK EMERALD SECTION) -->
+  <section class="section dark-emerald-section" id="target-audience">
+    <div class="container">
+      <div class="emerald-block-grid">
+        <div class="eb-left">
+          <div class="sub-header-label light-tag">WHO WE WORK WITH</div>
+          <h2 class="serif-title text-white">From Startups to<br><em class="serif-italic">Growing Businesses.</em></h2>
+          <p class="text-emerald-muted">We work with startups, SMEs, entrepreneurs and growing ventures across industries to create meaningful and measurable impact.</p>
+          
+          <button class="btn btn-cream open-modal-btn" data-modal="consultationModal">
+            <span>Let's Build Together</span>
+            <i data-lucide="arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="eb-right-cards">
+          <div class="eb-card">
+            <div class="eb-icon"><i data-lucide="rocket"></i></div>
+            <h4>Startups</h4>
+            <p>From idea to launch</p>
+          </div>
+
+          <div class="eb-card">
+            <div class="eb-icon"><i data-lucide="building"></i></div>
+            <h4>SMEs</h4>
+            <p>Improve and scale</p>
+          </div>
+
+          <div class="eb-card">
+            <div class="eb-icon"><i data-lucide="user"></i></div>
+            <h4>Entrepreneurs</h4>
+            <p>Turn ideas into opportunities</p>
+          </div>
+
+          <div class="eb-card">
+            <div class="eb-icon"><i data-lucide="laptop"></i></div>
+            <h4>Technology Businesses</h4>
+            <p>Align strategy with technology</p>
+          </div>
+
+          <div class="eb-card">
+            <div class="eb-icon"><i data-lucide="trending-up"></i></div>
+            <h4>Growing Ventures</h4>
+            <p>Build for long-term success</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. CLIENT JOURNEY (100% UNIFORM STEP CARDS) -->
+  <section class="section journey-section" id="client-journey">
+    <div class="container">
+      <div class="section-title-wrapper text-center">
+        <div class="sub-header-label">CLIENT JOURNEY</div>
+        <h2 class="serif-title">You Bring the Challenge.<br><em class="serif-italic">We Build the Path Forward.</em></h2>
+      </div>
+
+      <div class="journey-horizontal-path">
+        <div class="j-step"><span class="j-num">01</span><p>Client Requirement</p></div>
+        <div class="j-arrow"><i data-lucide="chevron-right"></i></div>
+        <div class="j-step"><span class="j-num">02</span><p>Business Understanding</p></div>
+        <div class="j-arrow"><i data-lucide="chevron-right"></i></div>
+        <div class="j-step"><span class="j-num">03</span><p>Research & Analysis</p></div>
+        <div class="j-arrow"><i data-lucide="chevron-right"></i></div>
+        <div class="j-step"><span class="j-num">04</span><p>Strategy</p></div>
+        <div class="j-arrow"><i data-lucide="chevron-right"></i></div>
+        <div class="j-step"><span class="j-num">05</span><p>Team & Resource Coordination</p></div>
+        <div class="j-arrow"><i data-lucide="chevron-right"></i></div>
+        <div class="j-step"><span class="j-num">06</span><p>Execution</p></div>
+        <div class="j-arrow"><i data-lucide="chevron-right"></i></div>
+        <div class="j-step"><span class="j-num">07</span><p>Feedback & Optimization</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. OUR ECOSYSTEM -->
+  <section class="section ecosystem-section" id="ecosystem">
+    <div class="container">
+      <div class="section-title-wrapper text-center">
+        <div class="sub-header-label">CONNECTED ECOSYSTEM</div>
+        <h2 class="serif-title">One Strategy. <em class="serif-italic">The Right Execution.</em></h2>
+      </div>
+
+      <div class="eco-duo-grid">
+        <div class="eco-box">
+          <div class="eco-pill">STRATEGY & BUSINESS</div>
+          <h3>NX Consultancy</h3>
+          <ul>
+            <li><i data-lucide="check"></i> Research & Insight Analysis</li>
+            <li><i data-lucide="check"></i> Business & Strategic Consulting</li>
+            <li><i data-lucide="check"></i> Marketing Strategy & Planning</li>
+            <li><i data-lucide="check"></i> Project Governance & Execution Coordination</li>
+          </ul>
+        </div>
+
+        <div class="eco-box tech-box">
+          <div class="eco-pill tech-pill">TECHNOLOGY & PRODUCT</div>
+          <h3>NX Technologies</h3>
+          <ul>
+            <li><i data-lucide="check"></i> Website Development</li>
+            <li><i data-lucide="check"></i> Web & Mobile Application Development</li>
+            <li><i data-lucide="check"></i> Digital Solutions Infrastructure</li>
+            <li><i data-lucide="check"></i> Technical Product Execution</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="eco-quote">
+        <p>"Together, we help businesses move from strategy to execution through a connected ecosystem."</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. WHY NX CONSULTANCY -->
+  <section class="section why-section" id="why-us">
+    <div class="container">
+      <div class="section-title-wrapper text-center">
+        <div class="sub-header-label">WHY WORK WITH US</div>
+        <h2 class="serif-title">Why NX Consultancy?</h2>
+      </div>
+
+      <div class="why-six-grid">
+        <div class="why-item">
+          <i data-lucide="bar-chart-2"></i>
+          <h4>Research-Driven</h4>
+          <p>Our recommendations are built around thorough research and analysis.</p>
+        </div>
+        <div class="why-item">
+          <i data-lucide="compass"></i>
+          <h4>Practical Strategy</h4>
+          <p>We focus on strategies that can actually be implemented.</p>
+        </div>
+        <div class="why-item">
+          <i data-lucide="play"></i>
+          <h4>Execution Support</h4>
+          <p>We don't stop after delivering a strategy report.</p>
+        </div>
+        <div class="why-item">
+          <i data-lucide="network"></i>
+          <h4>Connected Resources</h4>
+          <p>We coordinate the right teams and resources based on project requirements.</p>
+        </div>
+        <div class="why-item">
+          <i data-lucide="user-check"></i>
+          <h4>Client-Centric</h4>
+          <p>Every strategy is built around your specific situation and goals.</p>
+        </div>
+        <div class="why-item">
+          <i data-lucide="repeat"></i>
+          <h4>Continuous Improvement</h4>
+          <p>We use performance data to optimize the approach continuously.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12 & 13. MISSION & VISION -->
+  <section class="section mv-section" id="mission-vision">
+    <div class="container">
+      <div class="mv-two-grid">
+        <div class="mv-block">
+          <div class="sub-header-label">OUR MISSION</div>
+          <h2 class="serif-title">Our Mission</h2>
+          <p class="mv-text">"To empower startups and businesses with research-driven strategies, practical execution support, and the right resources to build, grow, and transform their ventures."</p>
+        </div>
+        <div class="mv-block">
+          <div class="sub-header-label">OUR VISION</div>
+          <h2 class="serif-title">Our Vision</h2>
+          <p class="mv-text">"To become a trusted consulting and execution partner for businesses seeking innovation, sustainable growth, and long-term success."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 14. FINAL CTA -->
+  <section class="section final-cta-section" id="contact">
+    <div class="container">
+      <div class="final-card-banner text-center">
+        <div class="sub-header-label">GET IN TOUCH</div>
+        <h2 class="serif-title">Have an Idea, Challenge, or Business Goal?</h2>
+        <p class="cta-desc">Let's understand it, research it, strategize it, and turn it into action.</p>
+        <h3 class="cta-highlight-title">Let's Build What Comes Next.</h3>
+        
+        <div class="cta-email-box">
+          <a href="mailto:consultancy@nexisparkx.com" class="direct-email-link">
+            <i data-lucide="mail"></i>
+            <span>consultancy@nexisparkx.com</span>
+          </a>
+        </div>
+
+        <div class="cta-btn-group">
+          <button class="btn btn-dark btn-lg open-modal-btn" data-modal="consultationModal">
+            <span>Schedule Strategy Call</span>
+            <i data-lucide="arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-row">
+        <div class="brand-logo">
+          <img src="./images/untitled_design_logo.png" alt="NX Consultancy Logo" class="brand-logo-img">
+          <div class="logo-text-wrap">
+            <span class="brand-title">NX CONSULTANCY</span>
+            <span class="brand-tagline">IDEAS TO IMPACT</span>
+          </div>
+        </div>
+
+        <ul class="footer-nav">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#approach">Our Approach</a></li>
+          <li><a href="#how-we-work">How We Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="footer-socials">
+          <a href="mailto:consultancy@nexisparkx.com" aria-label="Email Us" class="footer-email-badge">
+            <i data-lucide="mail"></i>
+            <span>consultancy@nexisparkx.com</span>
+          </a>
+          <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+          <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+        </div>
+
+        <div class="footer-tag-right">
+          <span>Research. Strategy. Execution. Growth.</span>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <p>&copy; 2026 NX Consultancy. All rights reserved.</p>
+        <p class="better-tomorrow">Built for a better tomorrow.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CONSULTATION MODAL -->
+  <div class="modal-backdrop" id="consultationModal">
+    <div class="modal-dialog">
+      <button class="modal-close" id="closeModal">&times;</button>
+      <div class="modal-header">
+        <div class="sub-header-label">TALK TO A CONSULTANT</div>
+        <h3 class="serif-title">Let's Turn Your Goals Into Action</h3>
+        <p>Fill out the form below. Our strategic consulting team will get back to you promptly.</p>
+      </div>
+      
+      <form class="consultation-form" id="consultationForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fullName">Full Name *</label>
+            <input type="text" id="fullName" placeholder="e.g. Rahul Sharma" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Work Email *</label>
+            <input type="email" id="email" placeholder="name@company.com" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="businessType">Business Type *</label>
+            <select id="businessType" required>
+              <option value="" disabled selected>Select business stage</option>
+              <option value="Startup / New Venture">🚀 Startup / New Venture</option>
+              <option value="Small & Medium Business">💼 Small & Medium Business</option>
+              <option value="Solo Entrepreneur">👩‍💼 Solo Entrepreneur</option>
+              <option value="Technology Business">💻 Technology Business</option>
+              <option value="Growing Venture">📈 Growing Venture</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="serviceNeeded">Primary Service Needed *</label>
+            <select id="serviceNeeded" required>
+              <option value="" disabled selected>Select service focus</option>
+              <option value="Startup Consulting">Startup Consulting</option>
+              <option value="Business Consulting">Business Consulting</option>
+              <option value="Research & Analysis">Research & Analysis</option>
+              <option value="Marketing Consulting">Marketing Consulting</option>
+              <option value="Technology Consulting">Technology Consulting</option>
+              <option value="Execution Management">Execution Management</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="challengeDescription">Describe your Challenge or Goal *</label>
+          <textarea id="challengeDescription" rows="4" placeholder="Tell us briefly about your business goals or challenges..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-dark btn-block" id="submitFormBtn">
+          <span>Submit Request</span>
+          <i data-lucide="send"></i>
+        </button>
+      </form>
+
+      <div class="form-success-msg" id="formSuccessMsg">
+        <i data-lucide="check-circle" class="success-icon"></i>
+        <h4>Form Submitted Successfully!</h4>
+        <p>Our strategic consulting team will reach out to you within 24 hours.</p>
+        <button class="btn btn-outline-light" id="resetFormBtn">Submit Another Request</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICE DETAIL MODAL -->
+  <div class="modal-backdrop" id="serviceDetailModal">
+    <div class="modal-dialog modal-lg">
+      <button class="modal-close" id="closeServiceModal">&times;</button>
+      <div class="modal-header">
+        <div class="sub-header-label" id="sdTag">SERVICE DETAILS</div>
+        <h3 class="serif-title" id="sdTitle">Service Title</h3>
+        <p id="sdIntro">Service intro paragraph</p>
+      </div>
+      <div class="modal-body" id="sdBody"></div>
+    </div>
+  </div>
+
+  <!-- App Script -->
+  <script src="./app.js"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
