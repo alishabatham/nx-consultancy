@@ -260,12 +260,7 @@ app.get('/api/consultations', async (req, res) => {
   }
 });
 
-const frontendPath = path.join(__dirname, "dist");
 
-app.use(express.static(frontendPath));
-app.get("*splat", (req, res) => {
-    res.sendFile(path.join(frontendPath, "index.html"));
-});
 
 // Start express server
 app.listen(PORT, () => {
