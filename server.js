@@ -29,7 +29,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Serve static frontend files if needed
-app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname,'dist')));
 
 // MongoDB Atlas Connection
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://alishabatham2_db_user:urq6lBf4WlNfk1Um@cluster0.upabs4c.mongodb.net/consultancy_db?appName=Cluster0';
@@ -261,7 +261,7 @@ app.get('/api/consultations', async (req, res) => {
 });
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "index.html"));
+    res.sendFile(path.join(__dirname,'dist', "index.html"));
 });
 
 // Start express server
