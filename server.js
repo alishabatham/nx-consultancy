@@ -261,7 +261,7 @@ app.get('/api/consultations', async (req, res) => {
 });
 
 app.get("*splat", (req, res) => {
-    res.sendFile(path.join(frontendPath, "index.html"));
+    res.sendFile(path.join(__dirname, "index.html"));
 });
 
 // Start express server
